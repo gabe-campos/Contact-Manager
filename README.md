@@ -33,7 +33,6 @@ node insert_into_accounts_table
 
 - Simply navigate to your [Local Host](https://localhost:9001) at port 9255 and you're good to go!
 
-
 ## Installing Node
 In order for this project to run correctly you need to have node installed.
 If you are on a Linux system, perform the commmands:
