@@ -1,4 +1,4 @@
-# Contact-Manager
+# Contact Manager
 Contact manager app that uses Express as a framework and mySQL for database management.  You must have node installed to use this app, see below for steps on how to install.
 
 The app is simple to use after you get it set up.
@@ -11,11 +11,11 @@ This command will read the file "package.json" and install any required dependen
 
 - After this you may need to run npm install express, mysql, etc.
 
-- In order to use the app, you will need **your own mySQL database**.  You must know your host, username, password, and of course the name of the database.  
+- In order to use the app, you will need **your own mySQL database** set up.  You must know your host, username, password, and of course the name of the database.  
 
 - If you know all these items, simply add them to the config.js file on lines marked with REPLACE.
 
-- Your last step is to actually use the JavaScript files.
+- Your last step is to run the provided JavaScript files.
  - First run 
  ```
  node create_contact_table.js
@@ -24,14 +24,13 @@ This command will read the file "package.json" and install any required dependen
 ``` 
 node create_accounts_table.js
 ```
- - Lastly, you need to edit the file insert_into_accounts_table.js to select your own username and password.  This can be done on the lines marked with REPLACE.  Once you have edited these lines, run
+ - Lastly, you need to edit the file [insert_into_accounts_table.js](insert_into_accounts_table.js) to select your own username and password.  This can be done on the lines marked with REPLACE.  Once you have edited these lines, run
 ```
-node insert_into_accounts_table
+node insert_into_accounts_table.js
 ```
-
 - Once all these steps are complete, you are ready to run the app!
 
-- Simply navigate to your [Local Host](https://localhost:9001) at port 9255 and you're good to go!
+- Simply navigate to your [Local Host](https://localhost:9255) at port 9255 and you're good to go!
 
 ## Installing Node
 In order for this project to run correctly you need to have node installed.
