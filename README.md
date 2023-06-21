@@ -16,7 +16,7 @@ This command will read the file "package.json" and install any required dependen
 - If you know all these items, simply add them to the [config.js](config.js) file on lines marked with REPLACE.
 
 - Your last step is to run the provided JavaScript files.
- - First run 
+  - First run 
  ```
  node create_contact_table.js
  ```
