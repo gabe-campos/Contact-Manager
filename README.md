@@ -17,17 +17,17 @@ This command will read the file "package.json" and install any required dependen
 
 - Your last step is to run the provided JavaScript files.
   - First run 
- ```
- node create_contact_table.js
- ```
- - Next, run
-``` 
-node create_accounts_table.js
-```
- - Lastly, you need to edit the file [insert_into_accounts_table.js](insert_into_accounts_table.js) to select your own username and password.  This can be done on the lines marked with REPLACE.  Once you have edited these lines, run
-```
-node insert_into_accounts_table.js
-```
+   ```
+   node create_contact_table.js
+   ```
+   - Next, run
+  ``` 
+  node create_accounts_table.js
+  ```
+   - Lastly, you need to edit the file [insert_into_accounts_table.js](insert_into_accounts_table.js) to select your own username and password.  This can be done on the lines marked with REPLACE.  Once you have edited these lines, run
+  ```
+  node insert_into_accounts_table.js
+  ```
 - Once all these steps are complete, you are ready to run the app!
 
 - Simply navigate to your [Local Host](https://localhost:9255) at port 9255 and you're good to go!
