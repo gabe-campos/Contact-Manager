@@ -1,3 +1,7 @@
+// REPLACE ON LINES 60-64
+
+const config = require('./config.js');
+
 // Include the express module
 const express = require('express');
 
@@ -26,7 +30,7 @@ app.use(bodyparser());
 // Use express-session
 // In-memory session is sufficient for this assignment
 app.use(session({
-        secret: "csci4131secretkey",
+        secret: "secretkey",
         saveUninitialized: true,
         resave: false
     }
@@ -55,11 +59,11 @@ let conn;
 
 function createConnection() {
   conn = mysql.createConnection({
-    host: "cse-mysql-classes-01.cse.umn.edu",
-    user: "C4131S22U20",
-    password: "430",
-    database: "C4131S22U20",
-    port: 3306
+    host: config.host,               // REPLACE 
+    user: config.user,               // REPLACE
+    password: config.password,       // REPLACE
+    database: config.database,       // REPLACE
+    port: 3306                  // tpyical port for js
   });
 }
 
@@ -83,7 +87,8 @@ app.post('/sendLogin',function(req,res){
           throw err;
         }
         else{
-          // need to fix this line to search through entire database
+          // this line will only check the first username and password in the tbl_accounts table
+          // if you want to use a different username and password, change the number 0
           if(userName == result[0].acc_login && bcrypt.compareSync(password, result[0].acc_password)){
             req.session.value = 1;
             res.json({status: 'success'});
