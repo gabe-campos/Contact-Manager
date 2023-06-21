@@ -13,7 +13,7 @@ This command will read the file "package.json" and install any required dependen
 
 - In order to use the app, you will need **your own mySQL database** set up.  You must know your host, username, password, and of course the name of the database.  
 
-- If you know all these items, simply add them to the config.js file on lines marked with REPLACE.
+- If you know all these items, simply add them to the [config.js](config.js) file on lines marked with REPLACE.
 
 - Your last step is to run the provided JavaScript files.
  - First run 
