@@ -1,8 +1,7 @@
 # Contact Manager
-Contact manager app that uses Express as a framework and mySQL for database management.  You must have node installed to use this app, see below for steps on how to install.
+Welcome to my contact manager app!  This app uses Express as a web framework and mySQL for database management.  You must have node installed and a mySQL databse set up in order to use this app.
 
-The app is simple to use after you get it set up.
-In order to set it up, this **first** thing you want to do is **clone this repo**.
+In order to set up the contact manager, the **first** thing you want to do is **clone this repo**.
 Once you have cloned the repo and navigated inside of it locally on your command line, run the following command:
 ```
 npm install
@@ -11,9 +10,7 @@ This command will read the file "package.json" and install any required dependen
 
 - After this you may need to run npm install express, mysql, etc.
 
-- In order to use the app, you will need **your own mySQL database** set up.  You must know your host, username, password, and of course the name of the database.  
-
-- If you know all these items, simply add them to the [config.js](config.js) file on lines marked with REPLACE.
+- Next, you must insert your mySQL host, databse name, username and password inside the file [config.js](config.js) on the lines marked with REPLACE.
 
 - Your last step is to run the provided JavaScript files.
   - First run 
