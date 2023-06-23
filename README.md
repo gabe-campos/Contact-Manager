@@ -8,8 +8,6 @@ npm install
 ```
 This command will read the file "package.json" and install any required dependencies.
 
-- After this you may need to run npm install express, mysql, etc.
-
 - Next, you must insert your mySQL host, databse name, username and password inside the file [config.js](config.js) on the lines marked with REPLACE.
 
 - Your last step is to run the provided JavaScript files.
