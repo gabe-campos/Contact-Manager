@@ -50,7 +50,8 @@ brew install node
 
 ![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/4fe5d971-dc36-460f-865c-4bb8c0a4878d)
 
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/038be85c-f680-432d-8b67-b6e284dec430)
+![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/cc39bbe6-f4cb-4223-bf2e-38fd90bf58e5)
+
 
 
 
