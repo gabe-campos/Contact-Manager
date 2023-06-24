@@ -1,5 +1,3 @@
-// REPLACE ON LINES 60-64
-
 const config = require('./config.js');
 
 // Include the express module
@@ -59,10 +57,10 @@ let conn;
 
 function createConnection() {
   conn = mysql.createConnection({
-    host: config.host,               // REPLACE 
-    user: config.user,               // REPLACE
-    password: config.password,       // REPLACE
-    database: config.database,       // REPLACE
+    host: config.host,                
+    user: config.user,               
+    password: config.password,       
+    database: config.database,       
     port: 3306                  // tpyical port for js
   });
 }
