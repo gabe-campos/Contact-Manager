@@ -6,7 +6,7 @@ const con = mysql.createConnection({
   user: config.user,              
   password: config.password,       
   database: config.database,       
-  port: 3306                  // tpyical port for js
+  port: 3306                  // typical port for js
 });
 
 con.connect(function(err) {
