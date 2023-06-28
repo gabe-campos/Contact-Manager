@@ -44,18 +44,10 @@ brew install node
 ## Screenshots
 ![Picture1](https://github.com/gabe-campos/Contact-Manager/assets/91922397/d7e96fa0-8d7e-4967-86f3-d02fbce27d90)
 
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/146aa6a0-43b7-46c6-bdf0-36c30c49a96e)
+![Picture2](https://github.com/gabe-campos/Contact-Manager/assets/91922397/5ca1436a-bd0a-4509-9423-de6ea53c3d6b)
 
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/68bff23e-e8d8-4004-8837-4ff179e8b626)
+![Picture3](https://github.com/gabe-campos/Contact-Manager/assets/91922397/28433fa3-5164-456d-bed2-3da208bbfbba)
 
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/aec0c436-270b-43eb-aaca-241c58b424a1)
+![Picture4](https://github.com/gabe-campos/Contact-Manager/assets/91922397/1965a7fa-1644-4edc-a5bd-41d2abfaddc9)
 
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/4fe5d971-dc36-460f-865c-4bb8c0a4878d)
-
-![image](https://github.com/gabe-campos/Contact-Manager/assets/91922397/cc39bbe6-f4cb-4223-bf2e-38fd90bf58e5)
-
-
-
-
-
-
+![Picture5](https://github.com/gabe-campos/Contact-Manager/assets/91922397/d901ab81-d183-4632-a4bb-4f3be25982d2)
