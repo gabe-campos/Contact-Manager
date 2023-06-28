@@ -25,8 +25,7 @@ const app = express();
 // apply the body-parser middleware to all incoming requests
 app.use(bodyparser());
 
-// Use express-session
-// In-memory session is sufficient for this assignment
+// Use express-session - in-memory session is sufficient
 app.use(session({
         secret: "secretkey",
         saveUninitialized: true,
@@ -61,7 +60,7 @@ function createConnection() {
     user: config.user,               
     password: config.password,       
     database: config.database,       
-    port: 3306                  // tpyical port for js
+    port: 3306                  // typical port for js
   });
 }
 
@@ -87,6 +86,7 @@ app.post('/sendLogin',function(req,res){
         else{
           // this line will only check the first username and password in the tbl_accounts table
           // if you want to use a different username and password, change the number 0
+          // 0 is the number for the first account in the accounts table
           if(userName == result[0].acc_login && bcrypt.compareSync(password, result[0].acc_password)){
             req.session.value = 1;
             res.json({status: 'success'});
